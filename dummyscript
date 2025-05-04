@@ -976,7 +976,7 @@ end
 local function createTrashTool()
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
-    tool.Name = "쓰통(움직이기 쉬프트락 ㄴㄴ)"
+    tool.Name = "쓰통(움직이기 쉬프트락 ㄴㄴ)컴전용"
 
     tool.Activated:Connect(function()
         tool:Destroy()
